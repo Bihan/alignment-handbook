@@ -42,7 +42,7 @@ if stale_egg_info.exists():
 #   * If a dependency is fast-moving (e.g. transformers), pin to the exact version
 _deps = [
     "accelerate>=0.29.2",
-    "bitsandbytes>=0.43.0",
+    "bitsandbytes>=0.42.0",
     "black==23.1.0",
     "datasets>=2.18.0",
     "deepspeed==0.12.2",
